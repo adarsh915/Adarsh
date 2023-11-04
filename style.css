@@ -1,0 +1,518 @@
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #666;
+}
+
+#banner,#better,#three,#better2,#awesome,.bg-light{
+  font-family: "Roboto", sans-serif;
+}
+
+#navbarCollapse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 280px; /*example + never use min-width with this solution */
+    height: 100%;
+    background: #000;
+  }
+ 
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(255, 255, 255); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+
+
+/*navbar*/
+.nav-link{
+  font-family: "roboto",sans-serif;
+  padding-left: 100px;
+  font-weight: bold;
+}
+.nav-item{
+  padding-left: 20px;
+  color: white;
+ 
+}
+
+
+/* navbar first link effect*/
+.nav-item .first{
+
+  color: white;
+  font-weight: bold;
+  position: relative;
+}
+.nav-item .first:hover{
+  color: white;
+}
+
+
+.nav-item .first:before{
+ content: "";
+ position: absolute;
+ bottom:10px;
+ height: 1px;
+ width: 0;
+ background: white;
+ 
+ border-radius: 50px;
+ transition: width 0.3s ease;
+}
+.nav-item .first:hover:before{
+  width: 70%;
+  color: white;
+}
+
+/* navbar second link effect*/
+.nav-item .second{
+
+  color: white;
+  font-weight: bold;
+  position: relative;
+}
+.nav-item .second:hover{
+  color: white;
+}
+
+
+.nav-item .second:before{
+ content: "";
+ position: absolute;
+ bottom:10px;
+ height: 1px;
+ width: 0;
+ background: white;
+ 
+ border-radius: 50px;
+ transition: width 0.3s ease;
+}
+.nav-item .second:hover:before{
+  width: 80%;
+  color: white;
+}
+
+
+/* navbar third link effect*/
+.nav-item .third{
+
+  color: white;
+  font-weight: bold;
+  position: relative;
+}
+.nav-item .third:hover{
+  color: white;
+}
+
+
+.nav-item .third:before{
+ content: "";
+ position: absolute;
+ bottom:10px;
+ height: 1px;
+ width: 0;
+ background: white;
+ 
+ border-radius: 50px;
+ transition: width 0.3s ease;
+}
+.nav-item .third:hover:before{
+  width: 85%;
+  color: white;
+}
+
+/* navbar fourth link effect*/
+.nav-item .fourth{
+
+  color: white;
+  font-weight: bold;
+  position: relative;
+}
+.nav-item .fourth:hover{
+  color: white;
+}
+
+
+.nav-item .fourth:before{
+ content: "";
+ position: absolute;
+ bottom:10px;
+ height: 1px;
+ width: 0;
+ background: white;
+ 
+ border-radius: 50px;
+ transition: width 0.3s ease;
+}
+
+.nav-item .fourth:hover:before{
+  width: 85%;
+  color: white;
+}
+
+
+/*second navbar effects*/
+#nav2 .nav-item .first{
+
+  color: black;
+  font-weight: bold;
+  position: relative;
+}
+#nav2 .nav-item .first:hover{
+  color: skyblue;
+}
+#nav2 .nav-item .first:before{
+ content: "";
+ position: absolute;
+ bottom:10px;
+ height: 1px;
+ width: 0;
+ background:skyblue;
+ 
+ border-radius: 50px;
+ transition: width 0.3s ease;
+}
+#nav2 .nav-item .first:hover:before{
+  width: 70%;
+  color: skyblue;
+}
+#nav2 .nav-item .second{
+
+  color: black;
+  font-weight: bold;
+  position: relative;
+}
+#nav2 .nav-item .second:hover{
+  color: skyblue;
+}
+#nav2 .nav-item .second:before{
+ content: "";
+ position: absolute;
+ bottom:10px;
+ height: 1px;
+ width: 0;
+ background:skyblue;
+ 
+ border-radius: 50px;
+ transition: width 0.3s ease;
+}
+#nav2 .nav-item .second:hover:before{
+  width: 80%;
+  color: skyblue;
+}#nav2 .nav-item .third{
+
+  color: black;
+  font-weight: bold;
+  position: relative;
+}
+#nav2 .nav-item .third:hover{
+  color: skyblue;
+}
+#nav2 .nav-item .third:before{
+ content: "";
+ position: absolute;
+ bottom:10px;
+ height: 1px;
+ width: 0;
+ background:skyblue;
+ 
+ border-radius: 50px;
+ transition: width 0.3s ease;
+}
+#nav2 .nav-item .third:hover:before{
+  width: 85%;
+  color: skyblue;
+}#nav2 .nav-item .fourth{
+
+  color: black;
+  font-weight: bold;
+  position: relative;
+}
+#nav2 .nav-item .fourth:hover{
+  color: skyblue;
+}
+#nav2 .nav-item .fourth:before{
+ content: "";
+ position: absolute;
+ bottom:10px;
+ height: 1px;
+ width: 0;
+ background:skyblue;
+ 
+ border-radius: 50px;
+ transition: width 0.3s ease;
+}
+#nav2 .nav-item .fourth:hover:before{
+  width: 90%;
+  color: skyblue;
+}
+  #nav2 .nav-item button{
+    border: 2px solid white;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    /* padding-top: 8px;
+    padding-bottom: 7px; */
+  
+  }
+  #nav2 .nav-item button:hover{
+    color: skyblue;
+  }
+
+
+
+
+
+
+
+
+
+
+.nav-item button{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.b-text{
+ padding: 40px;
+ 
+ color: white;
+}
+.b-text h1{
+  font-size: 60px;
+  font-weight: bold;
+ 
+}
+.b-text h3
+{
+  font-size: 35px;
+  padding-top: 6px;
+  font-weight: bold;
+ 
+}
+.b-text h6{
+  font-size: 20px;
+  padding-top:40px;
+}
+.buttons{
+  padding-top: 30px;
+  
+  
+  
+}
+
+
+.buttons button{
+  padding: 5px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 2px;
+  color: white;
+  margin-right: 5px;
+  font-weight: bold;
+  
+  
+}
+.buttons button:hover{
+  padding: 5px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 2px;
+  color: rgb(40, 136, 173);
+  font-weight: bold;
+  
+  
+  transition: 0.5s;
+}
+.buttons i{
+  padding: 0 10px;
+}
+.buttons h5{
+  padding-right: 10px;
+  font-size: 15px;
+  padding-top: 6px;
+  font-weight: bold;
+}
+#three p{
+  color: gray;
+}
+#three .col-12{
+  padding: 5px 15px 5px 15px;
+  transition: transform .5s;
+}
+#three .col-12:hover{
+  
+  transform: translateY(-5px);
+ 
+
+}
+#three .col-12 h3{
+  font-size: 26px;
+  font-weight: bolder;
+}
+#three .col-12:hover h3{
+ 
+  color:  skyblue;
+  font-weight: bold;
+  
+ 
+
+}
+#better h1{
+  font-weight: bold;
+}
+
+#better h4{
+  padding: 10px 250px;
+  font-size: 20px;
+  line-height: 2rem;
+  font-weight: 200;
+  color: gray;
+}
+#better2 h4{
+  color: gray;
+}
+
+#three h1{
+  font-weight: bold;
+}
+#three img,h3{
+  padding-top: 40px;
+ 
+  
+}
+#better2 h1{
+  font-weight: bold;
+}
+#better2 h4{
+  padding: 10px 250px;
+  font-size: 20px;
+  line-height: 2rem;
+  font-weight: 200;
+}
+.box-1{
+  padding-top: 40px;
+  padding-left: 20px;
+}
+.box-1 p{
+  color: gray;
+}
+.box-1 h4{
+  font-weight: bold;
+}
+#awesome i{
+  color: rgb(103, 157, 179);
+}
+
+#nav2   {
+  background-color: white; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  color: black;
+  top: -200px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 1s; /* Transition effect when sliding down (and up) */
+}
+
+
+/*responsive*/
+
+@media (max-width: 992px) {
+   #banner img{
+     width: 100%;
+  }
+  .b-text{
+    padding: 0px;
+    text-align: center;
+    color: white;
+   }
+   .b-text h1{
+     font-size: 60px;
+    
+   }
+   .b-text h3
+   {
+     font-size: 40px;
+    
+   }
+   .b-text h6{
+     font-size: 20px;
+     padding-top:40px;
+   }
+   .buttons{
+     padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     
+     
+     
+   }
+   .buttons a{
+     padding: 5px;
+   }
+   #better h4{
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 2rem;
+    font-weight: 200;
+  }
+  #three img,h3{
+    padding-top: 40px;
+    
+  }
+  #better2 h4{
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 2rem;
+    font-weight: 200;
+  }
+  .btn-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+ 
+.closebtn{
+  position: absolute;
+  top:50  px;
+  right: 43px;
+}
+
+/*footer*/
+.bg-light a{
+  color: white;
+  text-decoration: none;
+}
+.bg-light a:hover{
+  color: skyblue;
+  transition: 0.5s;
+}
